@@ -1,0 +1,70 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7e3976da977cb49238499ea3b4c237ae, type: 3}
+  m_Name: ProfileDataSourceSettings
+  m_EditorClassIdentifier: 
+  profileGroupTypes:
+  - m_GroupTypePrefix: Automatic
+    m_Variables:
+    - m_Suffix: BuildPath
+      m_Value: CCDBuildData/ManagedEnvironment/ManagedBucket/ManagedBadge
+    - m_Suffix: EnvironmentName
+      m_Value: production
+    - m_Suffix: LoadPath
+      m_Value: https://8f75c7dd-ca77-4182-89c8-2c4ee0db415e.client-api.unity3dusercontent.com/client_api/v1/environments/{CcdManager.EnvironmentName}/buckets/{CcdManager.BucketId}/release_by_badge/{CcdManager.Badge}/entry_by_path/content/?path=
+  - m_GroupTypePrefix: Built-In
+    m_Variables:
+    - m_Suffix: BuildPath
+      m_Value: '[UnityEngine.AddressableAssets.Addressables.BuildPath]/[BuildTarget]'
+    - m_Suffix: LoadPath
+      m_Value: '{UnityEngine.AddressableAssets.Addressables.RuntimePath}/[BuildTarget]'
+  - m_GroupTypePrefix: CCD.8f75c7dd-ca77-4182-89c8-2c4ee0db415e.9a7816b4-166e-4c80-9f6c-3ef6aecebe92.e940f260-680b-42b8-81ae-f5108073674a.latest
+    m_Variables:
+    - m_Suffix: BuildPath
+      m_Value: CCDBuildData/9a7816b4-166e-4c80-9f6c-3ef6aecebe92/e940f260-680b-42b8-81ae-f5108073674a/latest
+    - m_Suffix: CcdBadgeName
+      m_Value: latest
+    - m_Suffix: CcdBucketId
+      m_Value: e940f260-680b-42b8-81ae-f5108073674a
+    - m_Suffix: CcdBucketName
+      m_Value: Android
+    - m_Suffix: Environmentid
+      m_Value: 9a7816b4-166e-4c80-9f6c-3ef6aecebe92
+    - m_Suffix: Environmentname
+      m_Value: testing
+    - m_Suffix: LoadPath
+      m_Value: https://8f75c7dd-ca77-4182-89c8-2c4ee0db415e.client-api.unity3dusercontent.com/client_api/v1/environments/testing/buckets/e940f260-680b-42b8-81ae-f5108073674a/release_by_badge/latest/entry_by_path/content/?path=
+    - m_Suffix: PromoteOnly
+      m_Value: False
+  - m_GroupTypePrefix: Editor Hosted
+    m_Variables:
+    - m_Suffix: BuildPath
+      m_Value: ServerData/[BuildTarget]
+    - m_Suffix: LoadPath
+      m_Value: http://[PrivateIpAddress]:[HostingServicePort]
+  environments:
+  - id: 9a7816b4-166e-4c80-9f6c-3ef6aecebe92
+    projectId: 8f75c7dd-ca77-4182-89c8-2c4ee0db415e
+    projectGenesisId: 8f75c7dd-ca77-4182-89c8-2c4ee0db415e
+    name: testing
+    isDefault: 0
+  - id: f5498805-c1f6-46f0-8af5-773b9b00f3db
+    projectId: 8f75c7dd-ca77-4182-89c8-2c4ee0db415e
+    projectGenesisId: 8f75c7dd-ca77-4182-89c8-2c4ee0db415e
+    name: production
+    isDefault: 1
+  currentEnvironment:
+    id: 
+    projectId: 
+    projectGenesisId: 
+    name: 
+    isDefault: 0
