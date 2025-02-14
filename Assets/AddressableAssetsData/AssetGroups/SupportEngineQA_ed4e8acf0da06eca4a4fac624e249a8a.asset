@@ -17,11 +17,6 @@ MonoBehaviour:
     m_SerializedData: []
   m_GUID: 50f345c34c31b1e40bf01d424ef0b928
   m_SerializeEntries:
-  - m_GUID: 0001e977ec6b9de45a37ab9b84211334
-    m_Address: Assets/Textures/ed4e8acf0da06eca4a4fac624e249a8a/ProceduralTexture_ed4e8acf0da06eca4a4fac624e249a8a_10.png
-    m_ReadOnly: 0
-    m_SerializedLabels: []
-    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 3d1111711d648074382d4df0f038f932
     m_Address: Assets/Textures/ed4e8acf0da06eca4a4fac624e249a8a/ProceduralTexture_ed4e8acf0da06eca4a4fac624e249a8a_5.png
     m_ReadOnly: 0

@@ -27,6 +27,24 @@ MonoBehaviour:
       m_Value: '[UnityEngine.AddressableAssets.Addressables.BuildPath]/[BuildTarget]'
     - m_Suffix: LoadPath
       m_Value: '{UnityEngine.AddressableAssets.Addressables.RuntimePath}/[BuildTarget]'
+  - m_GroupTypePrefix: CCD.8f75c7dd-ca77-4182-89c8-2c4ee0db415e.9a7816b4-166e-4c80-9f6c-3ef6aecebe92.61e4322a-fcf0-47a2-ac43-523771e07ab6.latest
+    m_Variables:
+    - m_Suffix: BuildPath
+      m_Value: CCDBuildData/9a7816b4-166e-4c80-9f6c-3ef6aecebe92/61e4322a-fcf0-47a2-ac43-523771e07ab6/latest
+    - m_Suffix: CcdBadgeName
+      m_Value: latest
+    - m_Suffix: CcdBucketId
+      m_Value: 61e4322a-fcf0-47a2-ac43-523771e07ab6
+    - m_Suffix: CcdBucketName
+      m_Value: AndroidPrivate
+    - m_Suffix: Environmentid
+      m_Value: 9a7816b4-166e-4c80-9f6c-3ef6aecebe92
+    - m_Suffix: Environmentname
+      m_Value: testing
+    - m_Suffix: LoadPath
+      m_Value: https://8f75c7dd-ca77-4182-89c8-2c4ee0db415e.client-api.unity3dusercontent.com/client_api/v1/environments/testing/buckets/61e4322a-fcf0-47a2-ac43-523771e07ab6/release_by_badge/latest/entry_by_path/content/?path=
+    - m_Suffix: PromoteOnly
+      m_Value: False
   - m_GroupTypePrefix: CCD.8f75c7dd-ca77-4182-89c8-2c4ee0db415e.9a7816b4-166e-4c80-9f6c-3ef6aecebe92.e940f260-680b-42b8-81ae-f5108073674a.latest
     m_Variables:
     - m_Suffix: BuildPath
